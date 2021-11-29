@@ -5,12 +5,13 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   std_msgs
   geometry_msgs
+  ft_sensor_msgs
 )
 
 catkin_package(
   INCLUDE_DIRS include
   LIBRARIES impedance_module
-  CATKIN_DEPENDS roscpp std_msgs geometry_msgs
+  CATKIN_DEPENDS roscpp std_msgs geometry_msgs ft_sensor_msgs
   DEPENDS system_lib
 )
 
